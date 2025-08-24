@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLTIQUE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #8A2BE2, #00E5FF);
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: url('https://uploadnow.io/f/rvXqBTf') no-repeat center top/200px;
+      background-color: #111;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-top: 100px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .hero button {
+      background: #8A2BE2;
+      border: none;
+      padding: 15px 30px;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .hero button:hover {
+      background: #00E5FF;
+      color: black;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      color: #00E5FF;
+      margin-bottom: 15px;
+    }
+    .highlights {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .highlight {
+      flex: 1;
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #00E5FF;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://uploadnow.io/f/rvXqBTf" alt="VOLTIQUE Logo">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#mission">Mission</a>
+      <a href="#vision">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Where Technology meets Style</h1>
+    <p>Innovative gadgets and trendy Apparel, world in one place</p>
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Shop Now
+    </button>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>VOLTIQUE brings you the best in technology and fashion, combining innovative electronics with stylish apparel. Experience a world where gadgets meet trends, and creativity meets quality.</p>
+  </section>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To deliver innovative technology and stylish fashion, empowering our customers with quality, creativity and cutting-edge trends.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Our Vision</h2>
+    <p>To become the go-to destination for innovative tech and trendy fashion, shaping the future of lifestyle with creativity and style.</p>
+  </section>
+
+  <section>
+    <h2>Highlights</h2>
+    <div class="highlights">
+      <div class="highlight">Innovative Gadgets</div>
+      <div class="highlight">Trendy Fashion</div>
+      <div class="highlight">Premium Quality</div>
+      <div class="highlight">Fast Delivery</div>
+      <div class="highlight">Exclusive Offers</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:voltiqu3@gmail.com">voltiqu3@gmail.com</a></p>
+    <p>Phone: 01857843966</p>
+    <p>WhatsApp: <a href="https://wa.me/8801961387449">01961387449</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/share/1AfH4zPz7C/" target="_blank">Visit Page</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/voltiquebd?igsh=MWRtazBjZ2c0cXRobQ==" target="_blank">@voltiquebd</a></p>
+    <p>TikTok: voltique.bd</p>
+    <p>Open Hours: Saturday - Thursday</p>
+  </section>
+
+  <footer>
+    <p>© 2025 VOLTIQUE. All Rights Reserved.</p>
+    <a href="https://www.facebook.com/share/1AfH4zPz7C/">Facebook</a> | 
+    <a href="https://www.instagram.com/voltiquebd?igsh=MWRtazBjZ2c0cXRobQ==">Instagram</a> | 
+    <a href="https://wa.me/8801961387449">WhatsApp</a>
+  </footer>
+
+</body>
+</html>
