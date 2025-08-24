@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOLTIQUE | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to <span>VOLTIQUE</span></h1>
+    <p>Your Business, Powered by Innovation.</p>
+    <a href="services.html" class="btn">Explore Services</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 VOLTIQUE. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

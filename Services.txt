@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | VOLTIQUE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Our Services</h1>
+    <div class="services-grid">
+      <div class="service-card">
+        <h2>Web Development</h2>
+        <p>Modern and responsive websites tailored for your business needs.</p>
+      </div>
+      <div class="service-card">
+        <h2>Branding</h2>
+        <p>Creative branding solutions to make your business stand out.</p>
+      </div>
+      <div class="service-card">
+        <h2>Marketing</h2>
+        <p>Smart digital marketing strategies to grow your audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 VOLTIQUE. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
