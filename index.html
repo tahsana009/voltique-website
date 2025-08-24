@@ -1,173 +1,53 @@
-<!DOCTYPE html>
-<html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VOLTIQUE</title>
-    
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | VOLTIQUE</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="content">
-    <h1>About Us</h1>
-    <p>VOLTIQUE is a modern business brand focused on delivering high-quality services and solutions. 
-       We believe in innovation, creativity, and customer satisfaction.</p>
-  </section>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | VOLTIQUE</title>
+  <title>Voltiqe - Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">VOLTIQUE</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to VOLTIQUE</h1>
+    <p>Your trusted business brand</p>
+    <a href="contact.html" class="btn">Get in Touch</a>
   </header>
 
-  <section class="content">
-    <h1>Contact Us</h1>
-    <p>Email: <a href="mailto:voltique.business@gmail.com">voltique.business@gmail.com</a></p>
-    <p>WhatsApp: <a href="https://wa.me/8801XXXXXXXXX">+8801XXXXXXXXX</a></p>
-    <p>Follow us on 
-      <a href="#">Facebook</a> | 
-      <a href="#">Instagram</a> | 
-      <a href="#">TikTok</a>
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2025 VOLTIQUE. All Rights Reserved.</p>
-  </footer>
-</body>
-</html>
-
-<nav class="navbar">
-  <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
-  
-  <!-- Hamburger Icon -->
-  <div class="menu-toggle" id="menu-toggle">
-    ☰
-  </div>
-
-  <!-- Navigation Links -->
-  <ul class="nav-links" id="nav-links">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services | VOLTIQUE</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav class="navbar">
-      <img src="assets/logo.png" alt="VOLTIQUE Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html" class="active">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="content">
-    <h1>Our Services</h1>
-    <div class="services-grid">
-      <div class="service-card">
-        <h2>Web Development</h2>
-        <p>Modern and responsive websites tailored for your business needs.</p>
+  <!-- Products -->
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <h3>Product 1</h3>
+        <p>High quality business product.</p>
+        <button class="buy-now-btn">Buy Now</button>
       </div>
-      <div class="service-card">
-        <h2>Branding</h2>
-        <p>Creative branding solutions to make your business stand out.</p>
-      </div>
-      <div class="service-card">
-        <h2>Marketing</h2>
-        <p>Smart digital marketing strategies to grow your audience.</p>
+      <div class="product-card">
+        <h3>Product 2</h3>
+        <p>Best value for your money.</p>
+        <button class="buy-now-btn">Buy Now</button>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 VOLTIQUE. All Rights Reserved.</p>
+    <p>© 2025 VOLTIQUE. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-/* Default nav styles (Desktop already আছে) */
 
-/* Hamburger icon style */
-.menu-toggle {
-  display: none;
-  font-size: 28px;
-  color: #fff;
-  cursor: pointer;
-}
-
-/* Responsive menu */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 200px;
-    background: #000;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  .nav-links li {
-    margin: 15px 0;
-  }
-  .nav-links.show {
-    display: flex;
-  }
-  .menu-toggle {
-    display: block;
-  }
-}
- </body>
-</html>
 
