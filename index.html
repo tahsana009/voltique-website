@@ -159,3 +159,36 @@
   </footer>
 </body>
 </html>
+/* Default nav styles (Desktop already আছে) */
+
+/* Hamburger icon style */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    background: #000;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .nav-links li {
+    margin: 15px 0;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
